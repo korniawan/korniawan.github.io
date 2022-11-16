@@ -1,0 +1,192 @@
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-size: 90px;
+	font-family: 'Archivo Black', sans-serif;
+	margin-bottom: 10px;
+	line-height: 100px;
+}
+
+h2 {
+	font-size: 32px;
+	font-family: 'Archivo Black', sans-serif;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 16px;
+	font-family: 'Archivo Black', sans-serif;
+	margin-bottom: 10px;
+}
+
+p {
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+
+a.btn-primary {
+	padding: 10px 20px;
+	background: #cbf3f0;
+	font-size: 22px;
+	color: #000;
+	text-decoration: none;
+}
+
+a.btn-secondary {
+	padding: 8px 15px;
+	background: #ffbf69;
+	font-size: 16px;
+	color: #000;
+	text-decoration: none;
+}
+
+
+.content-header {
+	position: absolute;
+	color: #fff;
+	width: 500px;
+	top: 150px;
+}
+
+.container {
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+}
+
+section.header {
+	background: #ffbf69;
+	width: 100%;
+	height: auto;
+}
+
+section.about {
+	padding: 100px 0;
+	background: #fff;
+	text-align: center;
+}
+
+section.products {
+	padding: 100px 0;
+	background: #cbf3f0;
+	text-align: center;
+}
+
+section.featured {
+	padding: 100px 0;
+	background: url('images/bg-grid.png') no-repeat center center;
+}
+
+section.featured h2 {
+	margin-bottom: 20px;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.kolom3 {
+  	flex-grow: 1;
+  	width: 33%;
+  	height: auto;
+}
+
+.kolom2 {
+  	flex-grow: 1;
+  	width: 70%;
+  	height: auto;
+}
+
+.kolom21 {
+  	flex-grow: 1;
+  	width: 30%;
+  	height: auto;
+}
+
+.p1 {
+	padding-right: 50px;
+}
+
+.p2 {
+	padding: 0 80px;
+}
+
+img.img-responsive {
+	width: 100%;
+}
+
+img.produk {
+	width: 150px;
+	height: 150px;
+}
+
+.nav {
+	display: flex;
+	width: 100%;
+}
+
+.logo {
+	display: flex;
+	flex-flow: row wrap;
+  	justify-content: flex-start;
+  	padding: 18px 0;
+}
+
+.menu {
+	display: flex;
+	flex-flow: row wrap;
+  	justify-content: flex-end;
+  	margin-left: auto;
+}
+
+.menu ul li {
+	display: inline;
+	margin-left: 50px;
+}
+
+.menu ul li a {
+	font-size: 14px;
+	color: #000;
+	font-weight: 500;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.menu ul li a:hover {
+	color: #fff;
+}
+
+.menu1 {
+	display: flex;
+	flex-flow: row wrap;
+  	justify-content: flex-end;
+  	margin-left: auto;
+}
+
+.menu1 ul li {
+	display: inline;
+	margin-left: 120px;
+}
+
+.menu1 ul li a {
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.menu1 ul li a:hover {
+	color: #fff;
+}
+
+footer {
+	background: #333333;
+	padding: 20px 0 10px 0;
+	width: 100%;
+	color: #fff !important;
+}
